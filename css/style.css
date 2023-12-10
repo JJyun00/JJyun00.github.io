@@ -1,0 +1,71 @@
+.hidden {
+    display: none;
+}
+
+/* opacity는 취향대로, z-index는 text의 z-index 보다 낮으면 뒷 배경으로 설정 됩니다 */
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;    
+    opacity:80%;   
+}
+
+#login-form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#greeting{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+#clock{
+    text-align: center
+}
+
+#todo-form{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#todo-list{
+    /* align-self: center; */
+   list-style: none;
+   margin-left: auto;
+  margin-right: auto;
+   border-bottom: 1px solid #efefef;
+   font-size: 15px;
+   max-width: 700px;
+   width: 100%; 
+   backdrop-filter: blur(50px);
+   font-size: 20px;
+}
+
+button{
+    border-style: none;
+    margin-block: none;
+    background: none;
+    font-size:23px;
+}
+
+#quote{
+    text-align: center;
+    color: black;
+    border-color: white;
+    text-overflow:clip;
+    margin-bottom: 5%;
+    font-size: 20px;
+    color: white;
+    backdrop-filter: contrast(.7)
+}
+
+#weather{
+    text-align: center
+}
